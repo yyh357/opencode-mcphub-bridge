@@ -1,9 +1,16 @@
 {
-  "name": "opencode-mcphub-bridge",
-  "version": "0.1.2",
+  "name": "@yyh357/opencode-mcphub-bridge",
+  "version": "0.1.3",
+  "description": "OpenCode plugin: MCPHub progressive-disclosure bridge (search_tools/describe_tool/call_tool)",
   "type": "module",
   "main": "./index.js",
   "exports": "./index.js",
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.25.2",
     "@opencode-ai/plugin": "^1.1.1"

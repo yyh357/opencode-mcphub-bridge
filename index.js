@@ -156,7 +156,7 @@ export default async function McpHubBridgePlugin() {
       await closeSession();
       const transport = await createTransport(url, headers);
       const client = new Client(
-        { name: "opencode-mcphub-bridge", version: "0.1.2" },
+        { name: "opencode-mcphub-bridge", version: "0.1.3" },
         { capabilities: {} }
       );
       const connectPromise = client.connect(transport);
