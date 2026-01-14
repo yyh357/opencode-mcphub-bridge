@@ -1,0 +1,11 @@
+{
+  "name": "opencode-mcphub-bridge",
+  "version": "0.1.2",
+  "type": "module",
+  "main": "./index.js",
+  "exports": "./index.js",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.25.2",
+    "@opencode-ai/plugin": "^1.1.1"
+  }
+}
